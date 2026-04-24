@@ -82,6 +82,11 @@ Sales-Data-Analysis/
 ![Dashboard](screenshots/dashboard.png)
 
 ---
+## ▶️ How to Use
+
+1. Open the `.pbix` file in Power BI Desktop  
+2. Explore visuals and filters  
+3. Use the dataset for further analysis in Python/SQL
 
 ## 💼 Resume Description
 
