@@ -2,41 +2,57 @@
 
 ## 📌 Project Overview
 
-This project focuses on analyzing retail sales data to uncover key business insights such as regional performance, product trends, and category-wise sales. The goal is to transform raw data into meaningful visual insights using data analysis and visualization tools.
+This project analyzes retail sales data to uncover insights on regional performance, product trends, and category-level sales. The workflow includes data cleaning, analysis using Python, and visualization using Power BI.
 
 ---
 
 ## 🎯 Objectives
 
-* Clean and preprocess raw sales data
-* Analyze sales performance across different regions
-* Identify top-performing products and categories
-* Visualize trends using an interactive dashboard
+* Clean and preprocess raw sales data using Python
+* Perform exploratory data analysis (EDA)
+* Identify trends and top-performing regions/products
+* Build an interactive Power BI dashboard
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* Python (Pandas) – Data cleaning and preprocessing
-* Power BI – Data visualization and dashboard creation
+* Python (Pandas, Jupyter Notebook)
+* SQL (basic analysis)
+* Power BI (dashboard creation)
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Project Workflow
 
-* **Sales by Region** – Compare performance across regions
-* **Monthly Sales Trend** – Identify seasonal patterns
-* **Sales by Category** – Understand category contribution
-* **Top 5 Products** – Highlight best-selling products
+1. **Data Cleaning & Preparation**
+
+   * Handled missing values and formatted date columns using Pandas
+   * Processed 9,700+ records for analysis
+
+2. **Exploratory Data Analysis (Python)**
+
+   * Calculated total sales, analyzed regional performance, and identified top products
+   * Generated monthly sales trends
+
+3. **Dashboard Creation (Power BI)**
+
+   * Built interactive visuals:
+
+     * Sales by Region
+     * Monthly Sales Trend
+     * Sales by Category
+     * Top 5 Products
 
 ---
 
 ## 📈 Key Insights
 
-* The **West region** generates the highest sales among all regions
-* The **Technology category** contributes the most revenue
-* Sales show an **increasing trend towards the end of the year**
-* A small number of products contribute significantly to total revenue
+* West region contributes ~30% of total sales
+* Top 5 products contribute ~40% of total revenue
+* Sales increased by ~25% toward the end of the year
+* Technology category shows strong performance
+* Improved data understanding and decision-making through visual storytelling
 
 ---
 
@@ -45,17 +61,21 @@ This project focuses on analyzing retail sales data to uncover key business insi
 Sales-Data-Analysis/
 │
 ├── data/
-│ └── cleaned_sales_data.csv
+│   └── cleaned_sales_data.csv
 │
 ├── dashboard/
-│ └── sales_dashboard.pbix
+│   └── sales_dashboard.pbix
+│
+├── notebooks/
+│   └── data_analysis.ipynb
 │
 ├── screenshots/
-│ └── dashboard.png
+│   └── dashboard.png
 │
 ├── README.md
 
 ---
+
 
 ## 📷 Dashboard Preview
 
@@ -65,12 +85,15 @@ Sales-Data-Analysis/
 
 ## 💼 Resume Description
 
-Built an interactive Power BI dashboard to analyze sales trends, regional performance, and top-performing products. Cleaned and processed raw data using Python (Pandas) and derived actionable business insights.
+Built an end-to-end data analysis project by cleaning and analyzing sales data using Python and creating an interactive Power BI dashboard to derive actionable business insights.
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add filters/slicers for dynamic analysis
-* Include profit analysis and forecasting
-* Integrate SQL for advanced querying
+* Add advanced SQL queries for deeper analysis
+* Include profit and customer segmentation analysis
+* Add filters/slicers for dynamic dashboard interaction
+
+
+
